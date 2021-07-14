@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Username",
+    "xPath": "//*[@id='user-name']",
+    "objectToWait": null
+  },
+  {
+    "name": "Password",
+    "xPath": "//*[@id='password']",
+    "objectToWait": null
+  },
+  {
+    "name": "LOGIN",
+    "xPath": "//*[@id='login-button']",
+    "objectToWait": "//span[text()='Products']"
+  },
+  {
+    "name": "PRODUCTS",
+    "xPath": "//span[text()='Products']",
+    "objectToWait": null
+  },
+  {
+    "name": "Filter",
+    "xPath": "//select",
+    "objectToWait": null
+  }
+]
