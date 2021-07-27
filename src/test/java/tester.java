@@ -1,14 +1,20 @@
+import io.cucumber.java.bs.A;
+import reporting.MyLogger;
+import tools.Actions;
 import tools.ElementsReader;
 import tools.WrapperOfElements;
 
+import java.time.LocalDate;
+import java.time.Month;
+import java.time.temporal.TemporalAdjusters;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class tester {
     public static void main(String[] args) {
-        List<WrapperOfElements> list = new ElementsReader().readAllElements();
-        list.forEach(System.out::println);
-        System.out.println(list.indexOf("Username"));
+        new Actions().takeScreen();
 
     }
 }

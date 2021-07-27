@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 
-import static tools.ScenarioHooks.listOfElements;
+import static tools.preConditionManager.listOfElements;
 
 public class ElementsReader {
 

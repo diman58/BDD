@@ -2,26 +2,38 @@
   {
     "name": "Username",
     "xPath": "//*[@id='user-name']",
-    "objectToWait": null
+    "objectToWait": null,
+    "strategy": null
   },
   {
     "name": "Password",
     "xPath": "//*[@id='password']",
-    "objectToWait": null
+    "objectToWait": null,
+    "strategy": null
   },
   {
     "name": "LOGIN",
     "xPath": "//*[@id='login-button']",
-    "objectToWait": "//span[text()='Products']"
+    "objectToWait": "//span[text()='Products']",
+    "strategy": null
   },
   {
     "name": "PRODUCTS",
     "xPath": "//span[text()='Products']",
-    "objectToWait": null
+    "objectToWait": null,
+    "strategy": null
   },
   {
     "name": "Filter",
     "xPath": "//select",
-    "objectToWait": null
+    "objectToWait": null,
+    "strategy": null
+  },
+  {
+    "name": "Cart",
+    "xPath": "//a[@class='shopping_cart_link']",
+    "objectToWait": null,
+    "strategy": "js"
   }
+
 ]

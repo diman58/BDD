@@ -8,7 +8,7 @@ Feature: filter
 
   Scenario Outline: filter all possible ways
     When user filter <order>
-    Then items are filtered in <expectedOrder>
+    * items are filtered in <expectedOrder>
 
     Examples:
       | order               | expectedOrder       |

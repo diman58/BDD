@@ -5,11 +5,12 @@ import io.cucumber.java.Before;
 import io.cucumber.java.bs.A;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
 
 public class ScenarioHooks {
-    public static WebDriver driver;
+    /*public static WebDriver driver;
     public static List<WrapperOfElements> listOfElements;
 
     @Before
@@ -17,11 +18,11 @@ public class ScenarioHooks {
         listOfElements = ElementsReader.readAllElements();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-    }
+    } */
 
-    @After
+    /*@After
     public void driverTearDown() {
-        driver.quit();
-        driver = null;
-    }
+        preConditionManager.driver.quit();
+        preConditionManager.driver = null;
+    }*/
 }
