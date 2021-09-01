@@ -19,7 +19,7 @@ public class ElementsReader {
         WrapperOfElements[] temp = null;
         try {
             JsonReader jsonReader = new JsonReader(new FileReader(
-                    "C:\\Users\\Dmitrii_Tsarev\\IdeaProjects\\BDD2\\src\\test\\java\\tools\\elements.json"));
+                    ""src/test/java/tools/elements.json""));
             temp = gson.fromJson(jsonReader,WrapperOfElements[].class);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
